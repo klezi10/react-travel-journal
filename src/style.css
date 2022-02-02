@@ -4,4 +4,26 @@
 
 body {
   margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.Header {
+  background-color: #f55a5a;
+  display: flex;
+  justify-content: center;
+  height: 55px;
+}
+
+.Header .logo-img {
+  height: 24px;
+  align-self: center;
+}
+
+.Header .header-text {
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #ffffff;
+  margin: 20px 0 20px 7px;
 }
