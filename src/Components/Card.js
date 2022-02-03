@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function Card(props) {
-  console.log(props);
   return (
     <div className="Card">
       <img src={props.imageUrl} alt={props.title} className="travel-img" />

@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     id: 1,
     title: 'Biblioteca Palafoxiana',
@@ -33,3 +33,5 @@ export default [
     directLink: 'https://en.wikipedia.org/wiki/Phuket_province',
   },
 ];
+
+export default data;
