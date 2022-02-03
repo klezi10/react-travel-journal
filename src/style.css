@@ -90,8 +90,9 @@ body {
 .Card h1 {
   font-weight: 700;
   font-size: 25px;
-  line-height: 30px;
+  line-height: 1.5;
   color: #2b283a;
+  margin: 0;
 }
 
 .Card .travel-dates {

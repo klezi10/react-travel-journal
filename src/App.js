@@ -8,6 +8,7 @@ export default function App() {
   const cards = data.map((item) => {
     return (
       <Card
+        key={item.id}
         title={item.title}
         location={item.location}
         googleMapsUrl={item.googleMapsUrl}
