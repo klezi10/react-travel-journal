@@ -12,7 +12,7 @@ export default function App() {
     <div className="App">
       <Header />
       {cards}
-      {/* <footer className="footer">
+      <footer className="footer">
         Coded by{' '}
         <a
           href="https://clever-turing-3f9e94.netlify.app/"
@@ -31,7 +31,7 @@ export default function App() {
           {' '}
           Open-source
         </a>
-      </footer> */}
+      </footer>
     </div>
   );
 }
