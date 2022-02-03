@@ -7,11 +7,17 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.App {
+  width: 100%;
+  max-width: 900px;
+}
+
 .Header {
   background-color: #f55a5a;
   display: flex;
   justify-content: center;
   height: 55px;
+  margin-bottom: 45px;
 }
 
 .Header .logo-img {
@@ -26,4 +32,78 @@ body {
   letter-spacing: -0.075em;
   color: #ffffff;
   margin: 20px 0 20px 7px;
+}
+
+.Card {
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  max-width: 550px;
+}
+
+.Card .travel-img {
+  max-width: 100%;
+  display: block;
+  width: 125px;
+  border-radius: 5px;
+}
+
+.Card .travel-text {
+  padding-left: 20px;
+}
+
+.Card .location-info {
+  display: flex;
+}
+
+.Card .pin-location {
+  width: 7px;
+  height: 9.55px;
+  align-self: center;
+  margin-right: 4px;
+}
+
+.Card .country-location {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  align-self: center;
+  color: #2b283a;
+  margin-right: 12px;
+  text-transform: uppercase;
+}
+
+.Card .google-maps-url {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-decoration: underline;
+}
+
+.Card .google-maps-url a {
+  color: #918e9b;
+}
+
+.Card h1 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2b283a;
+}
+
+.Card .travel-dates {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #2b283a;
+}
+
+.Card .description-text {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #2b283a;
+  max-width: 326px;
+  flex-wrap: wrap;
 }

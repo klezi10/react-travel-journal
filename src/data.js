@@ -1,12 +1,11 @@
 export default [
   {
-    title: 'Mount Fuji',
-    location: 'Japan',
-    googleMapsUrl: 'https://goo.gl/maps/1DGM5WrWnATgkSNB8',
-    startDate: '12 Jan, 2021',
-    endDate: '24 Jan, 2021',
-    description:
-      'Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.',
-    imageUrl: 'https://unsplash.com/photos/WLxQvbMyfas',
+    title: 'Biblioteca Palafoxiana',
+    location: 'Mexico',
+    googleMapsUrl: 'https://goo.gl/maps/5euLHajVDo1WjNLu7',
+    startDate: '3 Feb, 2020',
+    endDate: '4 Feb, 2020',
+    description: `The Biblioteca Palafoxiana is a library in Puebla City's historic centre, in the Mexican state of Puebla. Founded in 1646, it is recognized by the UNESCO for being the first and oldest public library in the Americas, It has more than 45,000 books and manuscripts, ranging from the 15th to the 20th century.`,
+    imageUrl: '../Images/biblioteca',
   },
 ];
