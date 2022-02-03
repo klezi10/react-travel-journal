@@ -23,7 +23,12 @@ export default function Card(props) {
         <p className="travel-dates">
           {props.startDate} - {props.endDate}
         </p>
-        <p className="description-text">{props.description}</p>
+        <p className="description-text">
+          {props.description}{' '}
+          <a href={props.directLink} target="_blank" rel="noreferrer">
+            continue...
+          </a>
+        </p>
       </div>
     </div>
   );

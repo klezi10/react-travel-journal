@@ -16,6 +16,7 @@ export default function App() {
         endDate={item.endDate}
         description={item.description}
         imageUrl={item.imageUrl}
+        directLink={item.directLink}
       />
     );
   });
