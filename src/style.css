@@ -111,6 +111,12 @@ body {
   flex-wrap: wrap;
 }
 
+.footer {
+  text-align: center;
+  font-size: 0.7rem;
+  margin: 1rem 0;
+}
+
 @media (min-width: 450px) {
   .App {
     max-width: 1550px;

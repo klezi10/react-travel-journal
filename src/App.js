@@ -24,6 +24,26 @@ export default function App() {
     <div className="App">
       <Header />
       {cards}
+      <footer className="footer">
+        Coded by{' '}
+        <a
+          href="https://clever-turing-3f9e94.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {' '}
+          Klesta Luli
+        </a>
+        |{' '}
+        <a
+          href="https://github.com/klezi10/react-travel-journal"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {' '}
+          Open-source
+        </a>
+      </footer>
     </div>
   );
 }
