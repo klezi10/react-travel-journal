@@ -35,8 +35,8 @@ body {
 }
 
 .Card {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
   display: flex;
   flex-direction: column;
   /* max-width: 375px; */
@@ -107,7 +107,7 @@ body {
   flex-wrap: wrap;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 450px) {
   .App {
     max-width: 1550px;
     width: 100%;
@@ -129,5 +129,17 @@ body {
 
   .Card .location-info {
     margin: 0;
+  }
+}
+
+@media (min-width: 750px) {
+  .Card {
+    margin: auto 9.3rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .Card {
+    margin: auto 30rem;
   }
 }
