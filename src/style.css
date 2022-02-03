@@ -9,7 +9,7 @@ body {
 
 .App {
   width: 100%;
-  max-width: 900px;
+  /* max-width: 375px; */
 }
 
 .Header {
@@ -38,22 +38,21 @@ body {
   margin-left: 40px;
   margin-right: 40px;
   display: flex;
-  max-width: 550px;
+  flex-direction: column;
+  /* max-width: 375px; */
 }
 
 .Card .travel-img {
   max-width: 100%;
   display: block;
+  margin: 0 auto;
   width: 125px;
   border-radius: 5px;
 }
 
-.Card .travel-text {
-  padding-left: 20px;
-}
-
 .Card .location-info {
   display: flex;
+  margin: 20px 50px;
 }
 
 .Card .pin-location {
@@ -106,4 +105,29 @@ body {
   color: #2b283a;
   max-width: 326px;
   flex-wrap: wrap;
+}
+
+@media (min-width: 400px) {
+  .App {
+    max-width: 1550px;
+    width: 100%;
+  }
+  .Header {
+    width: 100%;
+  }
+
+  .Card {
+    flex-direction: row;
+  }
+  .Card .travel-img {
+    margin: 0;
+  }
+
+  .Card .travel-text {
+    padding-left: 20px;
+  }
+
+  .Card .location-info {
+    margin: 0;
+  }
 }
