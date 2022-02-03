@@ -1,5 +1,6 @@
 export default [
   {
+    id: 1,
     title: 'Biblioteca Palafoxiana',
     location: 'Mexico',
     googleMapsUrl: 'https://goo.gl/maps/5euLHajVDo1WjNLu7',
@@ -9,6 +10,7 @@ export default [
     imageUrl: '../Images/biblioteca.jpg',
   },
   {
+    id: 2,
     title: 'Teotihuacan',
     location: 'Mexico',
     googleMapsUrl: 'https://goo.gl/maps/ScNhYpBPNH14fkrH6',
@@ -18,6 +20,7 @@ export default [
     imageUrl: '../Images/teotihuacan.jpg',
   },
   {
+    id: 3,
     title: 'Phuket',
     location: 'Thailand',
     googleMapsUrl: 'https://goo.gl/maps/Q7Wuzihjiuf5Xf4d6',
